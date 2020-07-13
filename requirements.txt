@@ -4,3 +4,6 @@ PyOpenSSL
 google-api-python-client
 python-dateutil
 vobject
+atom
+gdata
+http_core
