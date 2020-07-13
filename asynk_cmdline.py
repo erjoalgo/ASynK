@@ -1,3 +1,4 @@
+#!/usr/bin/python
 ##
 ## Created :Tue Apr 10 15:55:20 IST 2012
 ##
@@ -26,8 +27,9 @@ EXTRA_PATHS = [os.path.join(ASYNK_BASE_DIR, 'lib'),
 sys.path = EXTRA_PATHS + sys.path
 
 import argparse, utils
-from   asynk_logger     import ASynKLogger
+
 from   asynk_core       import Asynk, AsynkParserError
+from   asynk_logger     import ASynKLogger
 from   state            import Config
 from   state_collection import collection_id_to_class as coll_id_class
 
